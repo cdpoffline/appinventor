@@ -13,11 +13,12 @@ then
   git clone https://github.com/mit-cml/appinventor-sources.git
 fi
 
-appengine_file=appengine-java-sdk-1.9.27.zip
+appengine="appengine-java-sdk-1.9.27.zip"
+appengine_file="${appengine}.zip"
 wget -N -c -O /tmp/$appengine_file https://storage.googleapis.com/appengine-sdks/featured/$appengine_file
-unzip /tmp/$appengine_file
+unzip -u /tmp/$appengine_file
 
-ln -s -T `pwd`/$appengine_file `pwd`/appengine-java-sdk
+ln -s -T `pwd`/$appengine `pwd`/appengine-java-sdk
 
 export PATH=$PATH:"`pwd`/appengine-java-sdk/bin/"
 
