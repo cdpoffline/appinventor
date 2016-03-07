@@ -1,0 +1,5 @@
+appengine-java-sdk-*
+appinventor-sources
+appengine-java-sdk
+*~
+/web/logs
