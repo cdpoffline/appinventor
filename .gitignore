@@ -4,3 +4,4 @@ appengine-java-sdk
 *~
 /web/logs
 web/offline-materials
+/web/downloads
