@@ -3,6 +3,7 @@
 cd "`dirname \"$0\"`"
 
 ./download_hour_of_code.sh
+./download_emulator.sh
 
 mkdir -p ../web/downloads
 
