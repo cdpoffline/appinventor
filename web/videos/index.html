@@ -1,0 +1,102 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <script src="jwplayer-7.3.4/jwplayer.js"></script>
+    <script type="text/javascript">jwplayer.key="8uz5E6p0DjI0oGAGn//8c+oIEbdf7h4d/CgwVg==";</script>
+  </head>
+  <body>
+  <a href="http://appinventor.mit.edu/explore/ai2/tutorials">Online</a>
+<div class="tutorial">
+  <div id="talk-to-me-part-1">Loading Talk to Me Part 1...</div>
+  <div class="description">
+    <a href="http://amara.org/en/videos/Uhxo9Ar9G9N3/info/talk-to-me-part-1-mit-app-inventor-tutorial-1/">Amara</a>
+    <a href="talk-to-me-part-1">Download</a>
+  </div>
+</div>
+<div id="talk-to-me-part-2">Loading Talk to me Part 2...</div>
+<div id="ball-bounce">Loading Ball Bounce...</div>
+<div id="digital-doodle">Loading Digital Doodle...</div>
+<script type="text/javascript">
+var player1 = jwplayer("talk-to-me-part-1");
+player1.setup({
+    file: "talk-to-me-part-1/talk-to-me-part-1.mp4",
+//    image: "//example.com/uploads/myPoster.jpg",
+    width: 640,
+    height: 360,
+    title: 'Talk To Me 1/2',
+    description: 'MIT App Inventor',
+    mediaid: '1',
+    tracks: [{ 
+            file: "talk-to-me-part-1/talk-to-me-part-1.en.vtt", 
+            label: "English",
+            kind: "captions",
+        },{ 
+            file: "talk-to-me-part-1/talk-to-me-part-1.de.vtt", 
+            kind: "captions",
+            label: "Deutsch"
+        },{ 
+            file: "talk-to-me-part-1/talk-to-me-part-1.es.vtt", 
+            kind: "captions",
+            label: "Español"
+        }]
+});
+var player2 = jwplayer("talk-to-me-part-2");
+player2.setup({
+    file: "talk-to-me-part-2/talk-to-me-part-2.mp4",
+//    image: "//example.com/uploads/myPoster.jpg",
+    width: 1280,
+    height: 720,
+    title: 'Talk To Me 2/2',
+    description: 'MIT App Inventor',
+    mediaid: '1',
+    tracks: [{ 
+            file: "talk-to-me-part-2/talk-to-me-part-2.en.vtt", 
+            label: "English",
+            kind: "captions",
+        },{ 
+            file: "talk-to-me-part-2/talk-to-me-part-2.de.vtt", 
+            kind: "captions",
+            label: "Deutsch"
+        }]
+});
+var player3 = jwplayer("ball-bounce");
+player3.setup({
+    file: "ball-bounce/ball-bounce.mp4",
+//    image: "//example.com/uploads/myPoster.jpg",
+    width: 1280,
+    height: 720,
+    title: 'Ball Bounce',
+    description: 'MIT App Inventor',
+    mediaid: '1',
+    tracks: [{ 
+            file: "ball-bounce/ball-bounce.en.vtt", 
+            label: "English",
+            kind: "captions",
+        },{ 
+            file: "ball-bounce/ball-bounce.de.vtt", 
+            kind: "captions",
+            label: "Deutsch"
+        }]
+});
+var player4 = jwplayer("digital-doodle");
+player4.setup({
+    file: "digital-doodle/digital-doodle.mp4",
+//    image: "//example.com/uploads/myPoster.jpg",
+    width: 1280,
+    height: 720,
+    title: 'Ball Bounce',
+    description: 'MIT App Inventor',
+    mediaid: '1',
+    tracks: [{ 
+            file: "digital-doodle/digital-doodle.en.vtt", 
+            label: "English",
+            kind: "captions",
+        },{ 
+            file: "digital-doodle/digital-doodle.de.vtt", 
+            kind: "captions",
+            label: "Deutsch"
+        }]
+});
+</script>
+  </body>
+</html>
