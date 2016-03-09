@@ -2,6 +2,10 @@ overview:
   blocks:
     appinventor:
 #      image: overview.jpg
-      name: MIT App Inventor
-      text: Erstelle deine eigenen Apps und teste sie auf dem Smartphone oder Computer.
+      name: 
+        en-en: MIT App Inventor
+        de-de: MIT App Inventor
+      text: 
+        en-en: Create your own apps and run them on your smartphone or computer.
+        de-de: Erstelle deine eigenen Apps und benutze sie auf dem Smartphone oder Computer.
       module: appinventor
