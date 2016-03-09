@@ -30,7 +30,7 @@ wget -N -c -P talk-to-me-part-2.pdf 'http://appinventor.mit.edu/explore/sites/al
 cd ..
 
 echo "Ball Bounce"
-mkdir -p 
+mkdir -p ball-bounce
 cd ball-bounce
 wget -N -c -O ball-bounce.mp4 'https://github.com/cdpoffline/appinventor/releases/download/videos/ball-bounce.mp4'
 wget -N -c -O ball-bounce.en.vtt 'http://amara.org/en/subtitles/AO7Cri0TEPgc/en/15/download/Ball%20Bounce%20MIT%20App%20Inventor%20Tutorial%203.en.vtt'
